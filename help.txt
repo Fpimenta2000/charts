@@ -1,0 +1,74 @@
+set PATH=%PATH%;C:\Users\User\AppData\Roaming\npm;
+
+npm init
+
+npm install --save knex mysql
+
+npm install --save express
+
+
+
+https://pugjs.org/api/getting-started.html
+Pug is available via npm:
+$ npm install --save pug
+
+
+https://www.npmjs.com/package/body-parser
+$ npm install --save body-parser
+npm i body-parser
+
+---------------------------------------------------------------------
+
+https://getbootstrap.com/docs/4.3/getting-started/download/
+
+BootstrapCDN
+https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js
+copiar o codio bootstrap ctrl+A ctrl+C 
+/dist/css/bootstrap.js
+
+https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
+copiar o codio bootstrap ctrl+A ctrl+C 
+/dist/css/bootstrap.css
+
+-------------------------------------------------------------------------------
+
+Axios
+
+https://github.com/axios/axios
+
+Using npm:
+
+$ npm install --save axios
+
+
+https://github.com/axios/axios/tree/master/dist
+acessar o arquivo axios.min.js
+clique o botao RAW => ctrl+A crtl+C na pagina web
+novo arquivo \dist\js\axios.js
+
+-------------------------------------------------------------------------------
+
+Graficos
+https://www.chartjs.org/
+
+clique no botao >> Get Started
+
+acesse o link >> GitHub releases
+
+no GitHub acessar o assest >> Chart.bundle.min.js
+copie o arquivo >> Chart.bundle.min.js para a pasta "C:\charts\dist\js"
+alterar o nome do arquivo de 'Chart.bundle.min.js' para "charts.js"
+
+
+$ npm install chart.js --save
+
+-------------------------------------------------------
+
+ERRO no mysql
+Error: ER_TRUNCATED_WRONG_VALUE: Incorrect date value:
+
+SET SESSION sql_mode = 'NO_ENGINE_SUBSTITUTION';
+SELECT @@SESSION.sql_mode;
+
+SET GLOBAL sql_mode = 'NO_ENGINE_SUBSTITUTION';
+SELECT @@GLOBAL.sql_mode;
